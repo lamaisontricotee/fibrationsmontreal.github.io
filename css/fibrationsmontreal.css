@@ -180,6 +180,7 @@ a {
 
 .section {
   position: relative;
+  display: none;
   padding-top: 130px;
   padding-bottom: 120px;
   background-color: #fff;
@@ -191,6 +192,7 @@ a {
 }
 
 .section.tint {
+  display: none;
   background-color: #eeefef;
   color: #000;
 }
