@@ -2697,6 +2697,9 @@ html.w-mod-js *[data-ix="team-tab-text"] {
     padding-bottom: 25px;
     padding-left: 20px;
   }
+  .section.tint {
+    padding-bottom: 0px;
+  }
   .section.home-intro {
     padding: 25px 25px 9px;
   }
@@ -2707,6 +2710,7 @@ html.w-mod-js *[data-ix="team-tab-text"] {
   }
   .home-slide-container {
     height: 100%;
+    padding-top: 200px;
   }
   .home-slide-title {
     font-size: 9vw;
@@ -2838,6 +2842,9 @@ html.w-mod-js *[data-ix="team-tab-text"] {
     font-size: 21px;
     line-height: 24px;
   }
+  .image-column-left.lower {
+    padding-bottom: 0px;
+  }
   .arrow-icon {
     height: 20px;
   }
@@ -2856,6 +2863,9 @@ html.w-mod-js *[data-ix="team-tab-text"] {
   .drink-tab-button {
     padding-top: 6px;
     padding-bottom: 5px;
+  }
+  .feature-wrapper {
+    margin-bottom: 35px;
   }
   .page-header-title {
     margin-bottom: 12px;
@@ -2963,7 +2973,8 @@ html.w-mod-js *[data-ix="team-tab-text"] {
   .facebook-image {
     position: static;
     height: auto;
-    margin-bottom: -85px;
+    margin-top: 22px;
+    margin-bottom: -163px;
     margin-left: -8px;
   }
   .gallery-slide-title {
