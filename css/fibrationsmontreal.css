@@ -2594,6 +2594,9 @@ html.w-mod-js *[data-ix="team-tab-text"] {
   .image-section-overlay {
     padding: 35px 25px;
   }
+  .stat-title.description.hours {
+    margin-bottom: 3vh;
+  }
   .dancer-image {
     top: 0px;
     right: -68px;
@@ -3010,6 +3013,9 @@ html.w-mod-js *[data-ix="team-tab-text"] {
   .stat-title {
     font-size: 35px;
     line-height: 41px;
+  }
+  .stat-title.description.hours {
+    margin-bottom: 3vh;
   }
   .dancer-image {
     position: static;
