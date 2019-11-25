@@ -1191,6 +1191,12 @@ a {
   line-height: 28px;
 }
 
+.stat-title.description.hours {
+  margin-top: 1vh;
+  font-size: 28px;
+  line-height: 42px;
+}
+
 .dancer-image {
   position: absolute;
   top: -196px;
