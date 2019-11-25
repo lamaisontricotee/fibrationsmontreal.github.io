@@ -154,6 +154,81 @@ a {
   color: #000;
 }
 
+.button.social {
+  overflow: hidden;
+  width: 35px;
+  height: 35px;
+  margin-top: 0px;
+  margin-right: 5px;
+  margin-bottom: 6px;
+  padding: 0px;
+  background-image: url('../images/instagram.png');
+  background-position: 50% 50%;
+  background-size: 75% 75%;
+  background-repeat: no-repeat;
+  -webkit-transition: background-color 500ms ease;
+  transition: background-color 500ms ease;
+  text-indent: -1250px;
+}
+
+.button.social:hover {
+  background-color: #d90246;
+  background-position: 50% 50%;
+  background-size: 70% 70%;
+}
+
+.button.social.etsy {
+  background-image: url('../images/etsy.png');
+}
+
+.button.social.ravelry {
+  background-image: url('../images/ravelry.png');
+}
+
+.button.social.facebook {
+  background-image: url('../images/facebook.png');
+}
+
+.button.social.pinterest {
+  background-image: url('../images/pinterest.png');
+}
+
+.button.social.messenger {
+  background-image: url('../images/messenger.png');
+}
+
+.button.social.linkedin {
+  background-image: url('../images/linkedin.png');
+}
+
+.button.social.email {
+  background-image: url('../images/email.png');
+}
+
+.button.social.twitter {
+  background-image: url('../images/twitter.png');
+}
+
+.button.social.youtube {
+  background-image: url('../images/youtube.png');
+}
+
+.button.social.spotify {
+  background-image: url('../images/spotify.png');
+}
+
+.button.social.medium {
+  background-image: url('../images/medium.png');
+}
+
+.button.social.podcast {
+  background-image: url('../images/podcast.png');
+}
+
+.button.social.website {
+  background-image: url('../images/website.png');
+}
+
 .navbar {
   background-color: transparent;
   text-align: center;
@@ -884,6 +959,10 @@ a {
 
 .feature-container {
   margin-top: 50px;
+}
+
+.feature-wrapper {
+  margin-bottom: 2vh;
 }
 
 .page-header-title {
@@ -1770,6 +1849,10 @@ a {
   margin-right: auto;
   margin-left: auto;
   text-align: left;
+}
+
+.sociallinks {
+  padding-top: 15px;
 }
 
 html.w-mod-js *[data-ix="slider-title-animation"] {
